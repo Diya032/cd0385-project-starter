@@ -1,6 +1,9 @@
 # Report: Predict Bike Sharing Demand with AutoGluon Solution
 #### DIYA KHAJURIA
 
+NOTE: Initially tried to train locally, many dependency conflicts occured in the conda environment that was created. Wasn't completing running the training code cells. Switched to AWS Sagemaker, worked perfectly from there on out. Ran notebook twice due to different completion status on 2 days, thus double score submitted on kaggle.
+Bill: 0.09 dollars
+
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
 I realized that the predicions on the test data had to be > 0. Thus, changing the negative outputs of the predictor to a positive value was essential.  
