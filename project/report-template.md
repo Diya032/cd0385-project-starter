@@ -27,20 +27,22 @@ The kaggle score improved from 0.63016 to 0.48668. On the other hand though, the
 I would have spent my time on optimizing hyperparameters, trying for different architectures, and experimenting with different hyperparameter values and time_limits. Also, I would have liked to do a more thorough EDA along with trying out the rest of the additional suggestions that Udacity provided.  
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|model|time limit|num trials|hyperparams|score|
+|Model|Time limit|Num trials|hyperparams/arch|Score|
 |--|--|--|--|--|
 |initial|700|1|default|1.80055|
 |add_features|700|1|default|0.63016|
-|hpo|1200|6|XGB and GBM tuned|0.48668|
+|hpo|1200|6|XGB and GBM|0.48668|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-![model_train_score.png]("C:\Users\Diya\OneDrive\Desktop\model_train_score.png")
+![model_train_score](https://github.com/Diya032/cd0385-project-starter/assets/99545441/9839fd6e-a155-41e4-a634-d515cb3c7130)
+
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 
-![model_test_score.png]("C:\Users\Diya\OneDrive\Desktop\model_test_score.png")
+![model_test_score](https://github.com/Diya032/cd0385-project-starter/assets/99545441/24943e0b-d902-4856-8266-b1350c6afc1c)
+
 
 ## Summary
 Three models were built, yielding different training scores and kaggle scores.
